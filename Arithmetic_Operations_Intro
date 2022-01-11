@@ -1,0 +1,163 @@
+Here are the diffrent math signs to use;
+
+    addition +
+    subtraction -
+    multiplication *
+    integer division /
+    remainder %
+    
+    
+The operators are called binary because they take two values as operands.
+
+The following example prints results of addition, subtraction, and multiplication.
+
+System.out.println(13 + 25); // prints 38
+System.out.println(20 + 70); // prints 90
+
+System.out.println(70 - 30); // prints 40
+System.out.println(30 - 70); // prints -40
+
+System.out.println(21 * 3);  // prints 63
+System.out.println(20 * 10); // prints 200
+
+----
+
+Let's look at some examples below.
+
+int two = 2;
+int ten = 10;
+
+int twelve = two + ten; // 12
+int eight = ten - two;  // 8
+int twenty = two * ten; // 20
+int five = ten / two;   // 5
+int zero = ten % two;   // 0, no remainder
+
+int minusTwo = -two; // -2
+
+---
+
+You can also print out a line with math, like this:
+
+System.out.println(1 + 3 * 4 - 2); // prints 11
+
+The calculation order coincides with arithmetic rules. 
+Multiplication has a higher priority level than addition and subtraction, 
+so the operation 3 * 4 is calculated first.
+To specify the order of execution we can use parentheses as in the following:
+
+System.out.println((1 + 3) * (4 - 2)); // prints 8
+
+---
+
+This is a list of highest to lowest priorities; 
+
+
+    parentheses
+    unary plus/minus
+    multiplication, division
+    addition, subtraction
+-----------------------
+
+                  Feks 
+
+System.out.println(2 + (-3) + 5 + (-8));
+
+it will print: -4
+
+------
+
+System.out.println (10 / (2 + 2) + 4 * 8);
+
+This will print: 34
+
+--
+
+System.out.println(2 + 4 * 5 - 10 / (2 + 1));
+
+This will print: 19
+
+--
+
+
+System.out.println(-10 * (3 + 4) / 2);
+
+this will print: -35
+
+-----------------------------------
+
+The forms of the assignment operator
+
+If you want to add some value to a variable. You may write something like this:
+
+int n = 10;
+n = n + 4; // 14               
+-- 
+
+The assignment operator = has several forms which combine
+it with an operation to avoid repeating the variable twice:
+
+int n = 10;
+n += 4; // 14
+
+There are a few other possible forms *=, /=, %= and some others.
+
+---
+
+Here is how this type of code should look like:
+
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int sum = a + b;
+
+        System.out.println(sum);
+    }
+}
+
+--- or this: ---
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+
+        long a = scanner.nextLong();
+        long b = scanner.nextLong();
+
+        long sum = a + b; ))
+        
+        System.out.println(sum);
+    }
+}
+
+-------------------------------------------
+
+--- Task --- 
+
+There are 2 squirelLs who wants to share their nuts with each other, equally
+Divide so they can split it.
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int ekorn = scanner.nextInt();
+        int nuts = scanner.nextInt();
+        
+        System.out.println(nuts / ekorn);
+      
+    }
+}
