@@ -1,0 +1,97 @@
+public class Main {
+
+    public static void main(String[] args) {
+	System.out.println("Hello Monkey");
+
+    }
+}
+*/ When the program is run, the consol will print out whatever you put inbetween the (). 
+   So now, it would have printed out; Hello Monkey. /*
+   
+-----------------------------------------------------------------------------------------------
+                   PRINTING TASK TASK
+You need to write a program to display the resulting grid of a Tic-Tac-Toe game.
+The grid is shown below.
+
+                          O X X
+                          O X O
+                          X O X
+			  
+class Main {
+    public static void main(String[] args) {
+        System.out.println("O X X");
+        System.out.println("O X O");
+        System.out.println("X O X");
+    }
+}
+
+*/ It isnt harder than that! */
+---------------------------------------------------------------------------------------------
+                         TASK 2
+	 Write a program that prints the following text:
+
+WE NEED TO
+
+LEARN JAVA
+
+AS QUICKLY AS POSSIBLE
+
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("WE NEED TO");
+        System.out.println();
+        System.out.println("LEARN JAVA");
+        System.out.println();
+        System.out.println("AS QUICKLY AS POSSIBLE");
+    }
+}
+
+--------------------------------------------------------------------------------------------
+                         TASK 3
+
+Write a program that prints numbers from 0 to 9, but in the backward order. All numbers must be in the same line. Separate them by a space.
+
+The output should be the following:
+
+9 8 7 6 5 4 3 2 1 0
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("9 8 7 6 5 4 3 2 1 0");
+    }
+}
+
+*/ Sometimes you have to add a +, to certein things. You could do it here, though it isnt necesserily.
+("9 " + "8 " + "7 " + "6 " + "5 " + "4 " + "3 " + "2 " + "1 " + "0"); */
+------------------------------------------------------------------------------
+                            TASK 4
+			    
+Write a program that prints the following magic letter using * and whitespaces.
+
+Use the provided code template.
+
+Sample Output
+
+********
+      **
+      **
+      **
+**    **
+**    **
+ *******
+
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("********");
+        System.out.println("      **");     
+        System.out.println("      **");
+        System.out.println("      **");
+        System.out.println("**    **"); 
+        System.out.println("**    **");
+        System.out.println(" *******");
+    }
+}
+------------------------------------------------------------------------
+
